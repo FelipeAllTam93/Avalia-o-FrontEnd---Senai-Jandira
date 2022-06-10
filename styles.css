@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topBar{
+    background: #808080;
+    top: 0;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuIcon{
+    padding: 5px;
+}
+
+.LinkSair{
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+    padding: 0 5px;
+}
+
+#corpo {
+    margin: 5px 40px;
+    background: #ededed;
+    height: 880px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navegação {
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.retornaIcon{
+    height: 15px;
+    width: 15px;
+    color: #000000;
+}
+
+.tituloVaga {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.numerovaga{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.atualisaIcon {
+    height: 30px;
+    width: 30px;
+    color: #000000;
+}
+
+#detaheVaga {
+   padding: 20px;
+   display: flex;
+}
+
+.col50 {
+    margin: 5px;
+    width: 50%;
+}
+
+.tituloVaga {    
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.descriçãoVaga {
+    font-weight: 300;
+    font-size: medium;
+    padding: 0 5px;
+}
+
+.boxRequisitos {
+    padding: 5px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.linkRequisitos {
+    margin-top: 5px;
+    padding: 3px;
+    width: 100%;
+    background: red;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.tituloSalario {  
+    margin-top: 50px;  
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.descriçãoSalario {
+    font-weight: 300;
+    font-size: medium;
+    padding: 0 5px;
+}
+
+.tituloObservacoes {  
+    margin-top: 50px;  
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.descriçãoObservacoes {
+    font-weight: 300;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.boxCandidato {
+    border: 1px solid #000000;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.cardCandidato {
+    width: 80px;
+    height: 90px;
+    padding: 5px;
+    font-size: small;
+}
+
